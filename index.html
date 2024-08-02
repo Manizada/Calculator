@@ -21,22 +21,25 @@
         </div>
 
         <div class="buttons">
-            <button id="calcbutton" onclick="numpad()" id="seven">7</button>
-            <button id="calcbutton" onclick="numpad()" id="eight">8</button>
-            <button id="calcbutton" onclick="numpad()" id="nine">9</button>
-            <button id="calcbutton" onclick="numpad()" id="division">/</button>
-            <button id="calcbutton" onclick="numpad()" id="four">4</button>
-            <button id="calcbutton" onclick="numpad()" id="five">5</button>
-            <button id="calcbutton" onclick="numpad()" id="six">6</button>
-            <button id="calcbutton" onclick="numpad()" id="multiplication">*</button>
-            <button id="calcbutton" onclick="numpad()" id="one">1</button>
-            <button id="calcbutton" onclick="numpad()" id="two">2</button>
-            <button id="calcbutton" onclick="numpad()" id="three">3</button>
-            <button id="calcbutton" onclick="numpad()" id="subtraction">-</button>
-            <button id="calcbutton" onclick="numpad()" id="zero">0</button>
-            <button id="calcbutton" onclick="numpad()" id="point">.</button>
-            <button id="calcbutton" onclick="numpad()" id="equal">=</button>
-            <button id="calcbutton" onclick="numpad()" id="addition">+</button>
+            
+            <button id="calcbutton" id="clean" onclick="clean()">C</button>
+            <button id="calcbutton" id="backspace" onclick="backspace()"><</button>
+            <button id="calcbutton" onclick="numpad('/')" id="division">/</button>
+            <button id="calcbutton" onclick="numpad('*')" id="multiplication">x</button>
+            <button id="calcbutton" onclick="numpad('-')" id="subtraction">-</button>
+            <button id="calcbutton" onclick="numpad('7')" id="seven">7</button>
+            <button id="calcbutton" onclick="numpad('8')" id="eight">8</button>
+            <button id="calcbutton" onclick="numpad('9')" id="nine">9</button>
+            <button id="calcbutton" onclick="numpad('+')" id="addition">+</button>
+            <button id="calcbutton" onclick="numpad('.')" id="point">.</button>
+            <button id="calcbutton" onclick="numpad('4')" id="four">4</button>
+            <button id="calcbutton" onclick="numpad('5')" id="five">5</button>
+            <button id="calcbutton" onclick="numpad('6')" id="six">6</button>
+            <button id="calcbutton" id="equal" style="width: 150px;" onclick="calculo()">=</button>
+            <button id="calcbutton" onclick="numpad('1')" id="one">1</button>
+            <button id="calcbutton" onclick="numpad('2')" id="two">2</button>
+            <button id="calcbutton" id="three" onclick="numpad('3')">3</button>
+            <button id="calcbutton" onclick="numpad('0')" id="zero" style="width: 150px;">0</button>
         </div>
     </section>
 
