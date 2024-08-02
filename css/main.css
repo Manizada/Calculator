@@ -79,11 +79,11 @@ header {
     font-weight: 700;
 }
 
-.calcbutton:hover {
+#calcbutton:hover {
     background-color: #ff8000;
 }
 
-.calcbutton:active {
+#calcbutton:active {
     transform: scale(0.90);
 }
 
